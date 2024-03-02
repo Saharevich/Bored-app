@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    text-align: center;
+    background-image: linear-gradient(white, black);
+    background-repeat: no-repeat;
+}
+
+.body-active {
+    background-image: linear-gradient(#8ef69f, #fff);
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 115px;
+    width: 500px;
+}
+
+.bored-title {
+    margin-bottom: 66px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.bored-descr {
+    margin-bottom: 94px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.bored-btn {
+    padding: 10px 135px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    background-color: #0094ff;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.bored-btn:hover {
+    background-color: #0562a4;
+}
